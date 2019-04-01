@@ -1,0 +1,63 @@
+/* .amplop {
+    width: 400px;margin: 0px auto;padding: 10px 20px;
+    background: #fff;position: relative;border-radius: 3px}
+  
+  .amplop:after {
+    content: '';
+    background:-webkit-repeating-linear-gradient(45deg, #114abc, #114abc 10px, #fff 10px, #fff 20px, #bf2010 20px, #bf2010 30px, #fff 30px, #fff 40px);
+    background:-moz-repeating-linear-gradient(45deg, #114abc, #114abc 10px, #fff 10px, #fff 20px, #bf2010 20px, #bf2010 30px, #fff 30px, #fff 40px);
+    background:-ms-repeating-linear-gradient(45deg, #114abc, #114abc 10px, #fff 10px, #fff 20px, #bf2010 20px, #bf2010 30px, #fff 30px, #fff 40px);
+    background:-o-repeating-linear-gradient(45deg, #114abc, #114abc 10px, #fff 10px, #fff 20px, #bf2010 20px, #bf2010 30px, #fff 30px, #fff 40px);
+    background:repeating-linear-gradient(45deg, #114abc, #114abc 10px, #fff 10px, #fff 20px, #bf2010 20px, #bf2010 30px, #fff 30px, #fff 40px);
+    padding: 20px;border-radius: 6px;
+    box-shadow: 1px 2px 6px 1px rgba(76, 66, 47, 0.75);
+    width: calc(100% - 24px);height: calc(100% - 24px);
+    position: absolute;top: -8px;left: -8px;z-index: -1}
+  
+  p {font-size:15px;line-height:24px;margin:20px 0;color:#111} */
+  .main {
+    width: 400px;
+    height: 200px;
+    position: relative;    
+    background-color: white;
+}
+.head:before,
+.head:after,
+.foot:before,
+.foot:after {
+    font-size: 0px; 
+    content: ".";
+    position: absolute;    
+}
+.head:before {
+    border-top: 10px solid #5588aa;
+    border-right: 10px solid white;
+    left: 0;
+    top: 0;
+}
+.head:after {
+    border-top: 10px solid #5588aa;
+    border-left: 10px solid white;
+    right: 0;
+    top: 0;
+}
+.foot:before {
+    border-bottom: 10px solid #5588aa;
+    border-right: 10px solid #5588aa;
+    left: 0;
+    bottom: 0;
+}
+.foot:after {
+    border-bottom: 10px solid #5588aa;
+    border-left: 10px solid #5588aa;
+    right: 0;
+    bottom: 0;
+}
+p{
+    text-align: left;
+    font-size: 14pt;
+    margin: 0;
+    padding: 20px;
+    color: black;
+    line-height: 20pt;
+}

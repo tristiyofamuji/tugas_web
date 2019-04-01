@@ -1,0 +1,46 @@
+.main {
+    width: 260px;
+    height: 140px;
+    position: relative;    
+    background-color: #5588aa;
+}
+.head:before,
+.head:after,
+.foot:before,
+.foot:after {
+    font-size: 0px; 
+    content: ".";
+    position: absolute;    
+}
+.head:before {
+    border-top: 10px solid white;
+    border-right: 10px solid #5588aa;
+    left: 0;
+    top: 0;
+}
+.head:after {
+    border-top: 10px solid white;
+    border-left: 10px solid #5588aa;
+    right: 0;
+    top: 0;
+}
+.foot:before {
+    border-bottom: 10px solid white;
+    border-right: 10px solid #5588aa;
+    left: 0;
+    bottom: 0;
+}
+.foot:after {
+    border-bottom: 10px solid white;
+    border-left: 10px solid #5588aa;
+    right: 0;
+    bottom: 0;
+}
+p{
+    text-align: left;
+    font-size: 14pt;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    line-height: 20pt;
+} 

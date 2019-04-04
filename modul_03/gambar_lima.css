@@ -1,0 +1,48 @@
+#box6{
+    margin-top: 5px;
+    
+}
+
+.lingkaran-satu{
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 110px;
+    background: #655;
+    float: left;
+    transform: rotate(-49deg);
+  
+}
+
+
+.lingkaran-dua{
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 110px;
+    background: #655;
+    float: left;
+    transform: rotate(-49deg);
+  
+}
+.shape-pacman1 { 
+    width: 0px; 
+    height: 0px; 
+    border-right: 100px solid #655; 
+    border-top: 100px solid yellowgreen; 
+    border-left: 100px solid yellowgreen;
+      border-bottom: 100px solid yellowgreen;
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 102px; 
+      border-bottom-left-radius: 102px; 
+    border-bottom-right-radius: 100px; 
+  }
+  .shape-pacman { 
+    width: 0px; 
+    height: 0px; 
+    border-right: 100px solid #655; 
+    border-top: 100px solid yellowgreen; 
+    border-left: 100px solid yellowgreen; 
+    border-top-left-radius: 100px; 
+    border-top-right-radius: 100px; 
+  }

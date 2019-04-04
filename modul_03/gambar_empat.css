@@ -1,0 +1,58 @@
+body{
+    font-family: Arial;
+    font-size: 18pt;
+}
+.col-lg-12{
+    width: 100%;
+}
+
+.parallelogram {
+    float: left;
+    padding:10px;
+    margin:30px;
+    width: 150px;
+    height: 40px;
+    transform: skew(45deg);
+    background: #5588aa;
+}
+
+.parallelogram::after{
+    content: ""; 
+	position: absolute; 
+	top: 0; 
+	left: -10px; 
+	width: 0; 
+	height: 0; 
+	border-style: solid; 
+	border-color: white transparent transparent transparent; 
+	border-width: 10px;
+}
+
+.parallelogram2 {
+    float: left;
+    padding:10px;
+    margin:30px;
+    width: 210px;
+    height: 40px;
+    transform: skew(45deg);
+    background: #5588aa;
+}
+.tulisan {
+    margin: 8px;
+    color : white;
+    width: 150px;
+    height: 15px;
+    transform: skew(-45deg);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tulisan2 {
+    margin: 8px;
+    color : white;
+    width: 210px;
+    height: 15px;
+    transform: skew(-45deg);
+    text-align: center;
+    text-transform: uppercase;
+}
